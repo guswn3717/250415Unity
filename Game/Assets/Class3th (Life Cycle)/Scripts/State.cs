@@ -32,16 +32,25 @@ public class State : MonoBehaviour
 
     private void Update()
     {
+        //매 프레임마다 호출되는 함수입니다
         Debug.Log("Update");
     }
 
     private void LateUpdate()
     {
+        //Update가 실행된 후 실행되는 함수입니다
         Debug.Log("Late Update");
     }
 
     private void OnDisable()
     {
+        //게임 오브젝트가 비활성화 되었을 때 호출되는 이벤트 함수입니다
         Debug.Log("OnDisable");
+    }
+
+    private void OnDestroy()
+    {
+        //게임 오브젝트가 삭제되었을 때 호출되는 이벤트 함수입니다.
+        Debug.Log("OnDestroy");
     }
 }
