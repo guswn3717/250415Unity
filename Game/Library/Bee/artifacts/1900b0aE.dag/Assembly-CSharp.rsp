@@ -327,11 +327,12 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Class08th/Scripts/Movement.cs"
-"Assets/Class2th (Script)/Scripts/Creature.cs"
-"Assets/Class2th (Script)/Scripts/Stat.cs"
-"Assets/Class3th (Life Cycle)/Scripts/State.cs"
-"Assets/Class5th (Prefab System)/Scripts/Ability.cs"
+"Assets/Clas10th (Instantiate & Destroy)/Scripts/WeaponManager.cs"
+"Assets/Class02th (Script)/Scripts/Creature.cs"
+"Assets/Class02th (Script)/Scripts/Stat.cs"
+"Assets/Class03th (Life Cycle)/Scripts/State.cs"
+"Assets/Class05th (Prefab System)/Scripts/Ability.cs"
+"Assets/Class09th (Collision)/Scripts/Battery.cs"
 -langversion:9.0
 
 /deterministic
