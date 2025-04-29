@@ -6,16 +6,14 @@ public class WeaponManager : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
     [SerializeField] Transform parentPosition;
+    [SerializeField] List<GameObject> weapon;
 
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate (prefab, parentPosition);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        for(int i = 0; i < weapons.Length; i++)
+        {
+            //Instantiate (prefab, parentPosition);
+        }
     }
 }
