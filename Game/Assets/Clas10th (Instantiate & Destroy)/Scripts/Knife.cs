@@ -6,6 +6,6 @@ public class Knife : Weapon
 {
     public override void Attack()
     {
-        Debug.Log("Knife attack");
-    }   
+        Debug.Log("Knife Attack");
+    }
 }
