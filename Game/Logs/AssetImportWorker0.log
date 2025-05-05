@@ -15,7 +15,7 @@ D:/guswn3717/github/Test/250415Unity/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50925
+52499
 Successfully changed project path to: D:/guswn3717/github/Test/250415Unity/Game
 D:/guswn3717/github/Test/250415Unity/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,9 +49,9 @@ D:/guswn3717/github/Test/250415Unity/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24832] Host "[IP] 25.21.177.50 [Port] 0 [Flags] 2 [Guid] 4179388413 [EditorId] 4179388413 [Version] 1048832 [Id] WindowsEditor(7,guswn3717) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10700] Host "[IP] 25.21.177.50 [Port] 0 [Flags] 2 [Guid] 1756296798 [EditorId] 1756296798 [Version] 1048832 [Id] WindowsEditor(7,guswn3717) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24832] Host "[IP] 25.21.177.50 [Port] 0 [Flags] 2 [Guid] 4179388413 [EditorId] 4179388413 [Version] 1048832 [Id] WindowsEditor(7,guswn3717) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10700] Host "[IP] 25.21.177.50 [Port] 0 [Flags] 2 [Guid] 1756296798 [EditorId] 1756296798 [Version] 1048832 [Id] WindowsEditor(7,guswn3717) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
@@ -72,19 +72,19 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007965 seconds.
-- Loaded All Assemblies, in  0.384 seconds
+Registered in 0.008389 seconds.
+- Loaded All Assemblies, in  0.379 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.290 seconds
-Domain Reload Profiling: 672ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.265 seconds
+Domain Reload Profiling: 642ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -92,26 +92,26 @@ Domain Reload Profiling: 672ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (114ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (137ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (290ms)
+	FinalizeReload (266ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (228ms)
+		SetupLoadedEditorAssemblies (206ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (163ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,52 +119,52 @@ Domain Reload Profiling: 672ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.233 seconds
+- Loaded All Assemblies, in  0.200 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.333 seconds
-Domain Reload Profiling: 566ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 511ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (9ms)
-		LoadAssemblies (91ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (8ms)
+		LoadAssemblies (77ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (334ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (312ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (200ms)
+		SetupLoadedEditorAssemblies (195ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (134ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (133ms)
 			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (49.0 KB). Loaded Objects now: 495.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.7 KB). Loaded Objects now: 494.
 Memory consumption went from 55.1 MB to 55.0 MB.
-Total: 7.093100 ms (FindLiveObjects: 0.039900 ms CreateObjectMapping: 0.005500 ms MarkObjects: 6.917500 ms  DeleteObjects: 0.128700 ms)
+Total: 3.412400 ms (FindLiveObjects: 0.046100 ms CreateObjectMapping: 0.005900 ms MarkObjects: 3.271700 ms  DeleteObjects: 0.087200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -177,277 +177,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Battery.cs: 99d0e56ec10c43fc35e68d21c8b9fbf3 -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:scripting/monoscript/fileName/Sensor.cs: ce3f0ac65cf5c227ade9ec77e6127bdc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1342.101271 seconds.
-  path: Assets/Class12th (Ray Cast)/Scenes/Class12th.unity
-  artifactKey: Guid(b93211e8f5e8bc24880e374bcc6690b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Scenes/Class12th.unity using Guid(b93211e8f5e8bc24880e374bcc6690b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850db05d6f6964ec07fe2cf0f90c3165') in 0.004038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Class12th (Ray Cast)/Prefabs
-  artifactKey: Guid(95990872cf52bd040a1ec1afc76966c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Prefabs using Guid(95990872cf52bd040a1ec1afc76966c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b069c4ab2bbd88dbb08c393c353441') in 0.000523 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 250.513635 seconds.
-  path: Assets/Class12th (Ray Cast)/Prefabs/Canvas.prefab
-  artifactKey: Guid(2ab12850ecc2cc34696eb914a3870cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Prefabs/Canvas.prefab using Guid(2ab12850ecc2cc34696eb914a3870cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4598dc40321e0402b1df40ac7086e6') in 0.043000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 2.198040 seconds.
-  path: Assets/Class12th (Ray Cast)/Sprites/Warning.png
-  artifactKey: Guid(aed5a373f43bc954096fef6541a93cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Sprites/Warning.png using Guid(aed5a373f43bc954096fef6541a93cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521c6a195bf9595e35904276489281c9') in 0.071761 seconds
+  Time since last request: 41325.112847 seconds.
+  path: Assets/Class13th/danthaigames/DS Air Hockey Table/Textures/AirHocketyTable.png
+  artifactKey: Guid(89ab3f694875b4046bb594d5cbffd6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class13th/danthaigames/DS Air Hockey Table/Textures/AirHocketyTable.png using Guid(89ab3f694875b4046bb594d5cbffd6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc69d79702691231ab44582c11c7032') in 0.101007 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 182.352018 seconds.
-  path: Assets/Class12th (Ray Cast)/Scripts
-  artifactKey: Guid(1af22fd1adfe57a41ab949f934760044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Scripts using Guid(1af22fd1adfe57a41ab949f934760044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ccd5c27825ddea219b828277ab9be6') in 0.001100 seconds
+  Time since last request: 4.539595 seconds.
+  path: Assets/Class11th (Sound System)/Scripts/Sound.cs
+  artifactKey: Guid(b758c6c7795f8de4dbee0f515a64afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Sound System)/Scripts/Sound.cs using Guid(b758c6c7795f8de4dbee0f515a64afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fe8852f6e95db67b76e4a36a5d233a') in 0.000582 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.409772 seconds.
-  path: Assets/Class12th (Ray Cast)/Sprites
-  artifactKey: Guid(3ba7b79df56591448883b6a34a7f5199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Sprites using Guid(3ba7b79df56591448883b6a34a7f5199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2373a59bd86eb3a10af53c1fd7e764c') in 0.000589 seconds
+  Time since last request: 63.878608 seconds.
+  path: Assets/Class11th (Sound System)/Scripts/AudioManager.cs
+  artifactKey: Guid(7bee891e6b0eaa04a99c1282e8d3b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (Sound System)/Scripts/AudioManager.cs using Guid(7bee891e6b0eaa04a99c1282e8d3b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627a9e3d908927e6313b531da4a5ab69') in 0.000765 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.577326 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion
-  artifactKey: Guid(118ab9183980b4642b77c0a17252d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion using Guid(118ab9183980b4642b77c0a17252d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861c53f86e8d00b61b99049feb6c552c') in 0.000591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.255365 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior
-  artifactKey: Guid(6438b0e9b820cf84a9ecf873f382f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior using Guid(6438b0e9b820cf84a9ecf873f382f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6016512fc4918b699aea4637a7c867ff') in 0.000549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.576219 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Models
-  artifactKey: Guid(0c119f26db6336c459c783a22356f989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Models using Guid(0c119f26db6336c459c783a22356f989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefbbb1a89eaed22b0f663adefc5d429') in 0.000552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.093993 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Models/House.fbx
-  artifactKey: Guid(02ad78cca7f19f843b49a2e580791919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Models/House.fbx using Guid(02ad78cca7f19f843b49a2e580791919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a195ca7e0d02a2312fb8ca268ab702') in 0.964647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 646
-========================================================================
-Received Import Request.
-  Time since last request: 1.538016 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs
-  artifactKey: Guid(89d98e2a52392434481b515eee2b71d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs using Guid(89d98e2a52392434481b515eee2b71d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b56fb1ced184e192d307b39209b9ee9') in 0.001205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.077950 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Arcade.prefab
-  artifactKey: Guid(5dc265e918ffd904bae64f120ae40df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Arcade.prefab using Guid(5dc265e918ffd904bae64f120ae40df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36b884e0f24b20c95a551d719693057') in 0.035889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Boxes.prefab
-  artifactKey: Guid(567394f18115fcf47a3c73d9fc13bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Boxes.prefab using Guid(567394f18115fcf47a3c73d9fc13bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d62441c8cd914b2a574b1b2b27d30d6') in 0.026631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/House 2.prefab
-  artifactKey: Guid(b3c01bafbe9c8fa4fbd4cd93e0eaad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/House 2.prefab using Guid(b3c01bafbe9c8fa4fbd4cd93e0eaad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a3a936e72f1f291f7c9d84acbee81b') in 0.043429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 175
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Chairs.prefab
-  artifactKey: Guid(c2295b34083ed0c4b95a252933176bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Chairs.prefab using Guid(c2295b34083ed0c4b95a252933176bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61639eba6658f14f6ae4732c3355e042') in 0.024267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Glass.prefab
-  artifactKey: Guid(f3638bc957e46844e835931a51ea4ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Glass.prefab using Guid(f3638bc957e46844e835931a51ea4ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b684c1bc09dab3ce4b8040544b36946b') in 0.028742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Basket.prefab
-  artifactKey: Guid(520640125cd9288429b91901711781c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Basket.prefab using Guid(520640125cd9288429b91901711781c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39f1711ba4ad54e319792dd2bb65a29') in 0.022662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Carpet 002.prefab
-  artifactKey: Guid(f1a5b02ce6c71e04dbe90426b072b4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Carpet 002.prefab using Guid(f1a5b02ce6c71e04dbe90426b072b4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d732d6ab0dd28092975103230294b8') in 0.021932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Kitchen.prefab
-  artifactKey: Guid(3ef71c61a4b7a584ab19647cf6f6946e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Kitchen.prefab using Guid(3ef71c61a4b7a584ab19647cf6f6946e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f6eb0df9c281c9be578d4c38e831f3') in 0.025492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Pan.prefab
-  artifactKey: Guid(b25277b7e28aa4446a996b11092272d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Pan.prefab using Guid(b25277b7e28aa4446a996b11092272d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5650a508911f280f4c0170b36f1449e') in 0.026970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Dishes.prefab
-  artifactKey: Guid(d9557199083727f4795db6c85a10396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Dishes.prefab using Guid(d9557199083727f4795db6c85a10396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cee94f14310cee1422feaf6390838f5') in 0.024986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Bath Carpet.prefab
-  artifactKey: Guid(1d50da95a25cec546bc4074349969f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Bath Carpet.prefab using Guid(1d50da95a25cec546bc4074349969f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec02944f2747ce6811f53d46e4b01b1') in 0.020261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Dinner Table.prefab
-  artifactKey: Guid(cbec771c1795bd6458b2310c86d5d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Dinner Table.prefab using Guid(cbec771c1795bd6458b2310c86d5d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8ebf617b67a9fb4c124581ad9e84ce') in 0.025311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Chess.prefab
-  artifactKey: Guid(1addaa49607737d418523adb717c64d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Chess.prefab using Guid(1addaa49607737d418523adb717c64d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5d36ab1b52c3c58d32ad12ed759884') in 0.025933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Coffee Table.prefab
-  artifactKey: Guid(77686a92b4d6c034094fddb988c7f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Coffee Table.prefab using Guid(77686a92b4d6c034094fddb988c7f2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78b07b729120a8b8f49fcec63e5a157') in 0.025598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Bath.prefab
-  artifactKey: Guid(dd1310fff69f1cd46974882f047d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Bath.prefab using Guid(dd1310fff69f1cd46974882f047d74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429ba6374dfe6e2e73b00b7cb1bfa007') in 0.027246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Kitchen Stuff.prefab
-  artifactKey: Guid(79f1bb7a99cc856419859c0286fe3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Kitchen Stuff.prefab using Guid(79f1bb7a99cc856419859c0286fe3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fa278a9e7c44625d30e9fe31dc41c3') in 0.025006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Microwave.prefab
-  artifactKey: Guid(97f0c639a9eb92b43a377663bfdbfd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Microwave.prefab using Guid(97f0c639a9eb92b43a377663bfdbfd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef89d6fec37783225a83d549b67a866') in 0.025804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Painting.prefab
-  artifactKey: Guid(9c16be079bb4ee343a5c695ee4a1a601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Painting.prefab using Guid(9c16be079bb4ee343a5c695ee4a1a601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe7770bbf21811874300326d0930ef5') in 0.031820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Fridge.prefab
-  artifactKey: Guid(49e948fe26356c64e9bccc46963c77da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Fridge.prefab using Guid(49e948fe26356c64e9bccc46963c77da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e53e3d6f0da2f4a80872144660d9f') in 0.024227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.620260 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Sofa.prefab
-  artifactKey: Guid(7eb8f0ed299d70f429df582be35b81e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Sofa.prefab using Guid(7eb8f0ed299d70f429df582be35b81e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10c3ad79f5cd61f8c92f08df8d928c4') in 0.029537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Tv Unit.prefab
-  artifactKey: Guid(01703f21ce284a1498b9b8bea9ac8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Tv Unit.prefab using Guid(01703f21ce284a1498b9b8bea9ac8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553b5d42df9571ab58f94d07e3213356') in 0.028132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Vase.prefab
-  artifactKey: Guid(419bf7a95ce43b847833705cfa58c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class12th (Ray Cast)/Studio Billion/House Interior/Prefabs/Vase.prefab using Guid(419bf7a95ce43b847833705cfa58c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9693ed4430a5c2e28cd99e00ee0517f6') in 0.024276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
