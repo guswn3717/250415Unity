@@ -8,6 +8,6 @@ public class AudioManager : MonoBehaviour
 
     public void Listener(AudioClip audioClip)
     {
-            audioSource.PlayOneShot(audioClip);
+        audioSource.PlayOneShot(audioClip);
     }
 }
